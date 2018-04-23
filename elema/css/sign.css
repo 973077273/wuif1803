@@ -1,0 +1,256 @@
+.main{
+    width: 100%;
+    height: 13.34rem;
+}
+.icon{
+    height: 2.01rem;
+    width: 2.01rem;
+    margin: 1.13rem auto 0;
+    border-radius: 50%;
+    font-size: 0.20rem;
+}
+.icon img{
+    height: 2.01rem;
+    width: 2.01rem;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+.text1{
+    height: 0.2rem;
+    font-size: 0.2rem;
+    text-align: center;
+    margin-top: 0.41rem;
+}
+.text2{
+    width: 2.6rem;
+    height: 0.26rem;
+    display: flex;
+    margin:0.28rem auto 0;
+    line-height: 0.24rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.text2 span{
+    font-size: 0.20rem;
+    color:red;
+}
+.text2 .left{
+    width: 0.61rem;
+    height: 0.15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text2 .left .circle1{
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: #ff6161;
+}
+.text2 .left .circle2{
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background:#ff4242 ;
+}
+.text2 .left .circle3{
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background:#ff0000 ;
+}
+.smallJu{
+    height: 3.1rem;
+    width: 4.66rem;
+    background: -webkit-linear-gradient(left,#0fee39,#dce81b);
+    border-radius: 0.22rem;
+    margin:0.8rem auto 0;
+}
+.bigJu{
+    width: 5.34rem;
+    height: 2.94rem;
+    border-radius: 0.2rem;
+    position: absolute;
+    left:1.02rem;
+    top: 5.3rem;
+    background: #fff;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 0.10rem 0.07rem rgba(0,0,0,0.2);
+}
+.bigJu .twoCircle{
+    width: 0.8rem;
+    height: 0.22rem;
+    display: flex;
+    margin:0.16rem auto 0;
+    justify-content:space-between;
+    align-items: center;
+}
+.bigJu .twoCircle .circle1{
+    width: 0.22rem;
+    height: 0.22rem;
+    border-radius: 50%;
+    background: #bfbfbf;
+}
+.bigJu .twoCircle .circle2{
+    width: 0.22rem;
+    height: 0.22rem;
+    border-radius: 50%;
+    background: #fb7272;
+}
+.bigJu .text{
+    width: 4.41rem;
+    height: 0.43rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+.bigJu .text .shuru{
+    width: 4.38rem;
+    height: 0.43rem;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.bigJu .text i{
+    font-size: 0.28rem;
+    line-height: 0.43rem;
+    color:#367aeb;
+}
+.bigJu .text .shuru .word .icon-suo1{
+    color:red;
+    font-size:0.24rem;
+}
+.bigJu .text .shuru .lan
+{
+    width: 0.29rem;
+    height: 0.06rem;
+    border-radius: 0.03rem;
+    background: blue;
+}
+.bigJu .text .shuru .word{
+    height: 100%;
+    width: 4.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.14rem;
+    border-bottom: 0.01rem solid #bfbfbf;
+    box-sizing: border-box;
+}
+.bigJu .text .shuru .word input{
+    font-size: 0.18rem;
+    border: none;
+}
+.bigJu a{
+    display: flex;
+}
+
+.bigJu .sureButton{
+    width: 1.04rem;
+    height: 0.36rem;
+    background: #d2cbcb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom:-0.13rem;
+    left:2.20rem;
+}
+.bigJu .sureButton i{
+    font-size: 0.4rem;
+    color:#fff;
+}
+.bigJu .textY{
+    width: 4.41rem;
+    height: 0.43rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+.bigJu .textY .shuru{
+    width: 4.38rem;
+    height: 0.43rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bigJu .textY i{
+    font-size: 0.28rem;
+    line-height: 0.43rem;
+    color:#367aeb;
+}
+.bigJu .textY .shuru .word .icon-suo1{
+    color:red;
+    font-size:0.24rem;
+}
+.bigJu .textY .shuru .lan
+{
+    width: 0.29rem;
+    height: 0.06rem;
+    border-radius: 0.03rem;
+    background: blue;
+}
+.bigJu .textY .shuru .word{
+    height: 100%;
+    width:4.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.14rem;
+    border-bottom: 0.01rem solid #bfbfbf;
+    box-sizing: border-box;
+}
+.bigJu .textY .shuru .word .yanZheng{
+    width: 1.4rem;
+    height: 0.38rem;
+    border-radius: 0.12rem;
+    line-height: 0.35rem;
+    background: -webkit-linear-gradient(left,#0fc52d,#aebb14);
+    text-align: center;
+    font-size:0.18rem;
+    color:#f9f4f4;
+}
+.bigJu .textY .shuru .word input{
+    width: 1.6rem;
+    font-size: 0.18rem;
+    /*line-height: 0.43rem;*/
+    border: none;
+}
+.buchong {
+    width: 100%;
+    height: 2.18rem;
+    background: yellow;
+}
+.accept{
+    width: 100%;
+    height: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.78rem;
+}
+.accept .line{
+    width: 1.8rem;
+    height: 0.01rem;
+    background: #c3c3c3;
+}
+.accept .read{
+    width: 4.0rem;
+    height: 0.28rem;
+    display: flex;
+    align-items: center;
+}
+.accept .read .redCircle{
+    height: 0.09rem;
+    width: 0.09rem;
+    border-radius: 50%;
+    background: #ff0000;
+    border: 0.04rem solid #f5adf6;
+}
+.accept .read span{
+    height: 100%;
+    font-size: 0.18rem;
+}
